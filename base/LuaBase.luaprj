@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="LuaBase.luaprj" Cmd="E:\cocos_lua\base\sanguo.exe" Arg="" Dir="E:\cocos_lua\base" Toggle="false" >
+    <Filter Name="lua" Directory=".\commonres\lua" Toggle="false" >
+        <LuaFile RelativePath=".\commonres\lua\pushCmd.lua" />
+        <LuaFile RelativePath=".\commonres\lua\start.lua" />
+        <Filter Name="Common" Directory=".\commonres\lua\Common" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\Common\AudioEngine.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\bitExtend.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\CCBReaderLoad.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\CCTimer.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\Cocos2d.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\Cocos2dConstants.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\CocoStudio.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\Deprecated.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\DeprecatedClass.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\DeprecatedEnum.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\DeprecatedOpenglEnum.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\DrawPrimitives.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\extern.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\ftp.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\funUtils.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\GuiConstants.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\headers.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\http.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\json.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\ltn12.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\luaj.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\luaoc.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\mbox.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\mime.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\Opengl.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\OpenglConstants.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\smtp.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\socket.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\StudioConstants.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\tp.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\url.lua" />
+            <LuaFile RelativePath=".\commonres\lua\Common\utf8.lua" />
+        </Filter>
+        <Filter Name="core" Directory=".\commonres\lua\core" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\core\Command.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\Core.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\CoreLayer.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\Notification.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\NotificationCenter.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\NotificationObserver.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\Proxy.lua" />
+            <LuaFile RelativePath=".\commonres\lua\core\View.lua" />
+        </Filter>
+        <Filter Name="data" Directory=".\commonres\lua\data" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\data\effectInfo.lua" />
+            <LuaFile RelativePath=".\commonres\lua\data\guidConfig.lua" />
+            <LuaFile RelativePath=".\commonres\lua\data\mainHomeInfo.lua" />
+            <LuaFile RelativePath=".\commonres\lua\data\soiderConfig.lua" />
+            <LuaFile RelativePath=".\commonres\lua\data\UnionMainInfo.lua" />
+        </Filter>
+        <Filter Name="libcode" Directory=".\commonres\lua\libcode" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\libcode\comdef.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\FloatUpMessage.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\GobalDialog.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\ItemJump.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\ListViewAnim.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\MGMapScrollView.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\MGQueeLayer.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\MGWidgetSwallow.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\ResourceTip.lua" />
+            <LuaFile RelativePath=".\commonres\lua\libcode\SDataUtils.lua" />
+        </Filter>
+        <Filter Name="module" Directory=".\commonres\lua\module" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\module\GobalNoticCmd.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\GobalProxy.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\GobalRegister.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\HeroCircleHead.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\HeroHead.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\HeroHeadEx.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\Item.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\itemInfo.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\SodierItem.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\TeamChoose.lua" />
+            <LuaFile RelativePath=".\commonres\lua\module\userHead.lua" />
+        </Filter>
+        <Filter Name="net" Directory=".\commonres\lua\net" Toggle="true" >
+            <LuaFile RelativePath=".\commonres\lua\net\helper.lua" />
+            <LuaFile RelativePath=".\commonres\lua\net\NetHandler.lua" />
+            <LuaFile RelativePath=".\commonres\lua\net\posturl.lua" />
+            <LuaFile RelativePath=".\commonres\lua\net\tcpurl.lua" />
+        </Filter>
+        <Filter Name="scene" Directory=".\commonres\lua\scene" Toggle="false" >
+            <LuaFile RelativePath=".\commonres\lua\scene\LoadingPanel.lua" />
+            <LuaFile RelativePath=".\commonres\lua\scene\LuaScene.lua" />
+            <LuaFile RelativePath=".\commonres\lua\scene\sceneRes1.lua" />
+            <LuaFile RelativePath=".\commonres\lua\scene\sceneRes2.lua" />
+            <LuaFile RelativePath=".\commonres\lua\scene\sceneRes3.lua" />
+            <Filter Name="guild" Directory=".\commonres\lua\scene\guild" Toggle="true" >
+                <LuaFile RelativePath=".\commonres\lua\scene\guild\GuildHelper.lua" />
+            </Filter>
+            <Filter Name="homeScene" Directory=".\commonres\lua\scene\homeScene" Toggle="false" >
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chatInstance.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\dialog.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\getItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\heroInfo.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\MainLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\MessageTip.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\PanelTop.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\playerInfo.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\rule.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\homeScene\tip.lua" />
+                <Filter Name="arena" Directory=".\commonres\lua\scene\homeScene\arena" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_active.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_activeItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_award.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_awardItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_buy.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_player_Info.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_rank.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_rankItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_record.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_recordItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arena_say.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arenaItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\arena\arenaLayer.lua" />
+                </Filter>
+                <Filter Name="campaign" Directory=".\commonres\lua\scene\homeScene\campaign" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\campaign\campaignItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\campaign\campaignLayer.lua" />
+                </Filter>
+                <Filter Name="chat" Directory=".\commonres\lua\scene\homeScene\chat" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\chatItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\chatLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\chatRecentPrivate.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\chatTip.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\membersItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\chat\membersLayer.lua" />
+                </Filter>
+                <Filter Name="cloudCity" Directory=".\commonres\lua\scene\homeScene\cloudCity" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AngelRisingStar.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AngelSkill.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AngelSkillItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AngelTransItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AngelTransmigration.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\AnswerPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\BlessingPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\CCHeroItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\CCHeroListItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\CloudCMainLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\DecisionPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\DivinationPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\FightPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\FightReward.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\HopeGarden.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\PrayerPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\RemoteDiceItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\RestingPoint.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\RoundReward.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\SupremePalace.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\cloudCity\TreasureBoxPoint.lua" />
+                </Filter>
+                <Filter Name="finance" Directory=".\commonres\lua\scene\homeScene\finance" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\finance\FinanceLayer.lua" />
+                </Filter>
+                <Filter Name="guild" Directory=".\commonres\lua\scene\homeScene\guild" Toggle="false" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildApplyItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildApplyLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildCreateLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildCreateNextLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildMainBuildingItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guildMainLayer.lua" />
+                    <Filter Name="guild_achievement" Directory=".\commonres\lua\scene\homeScene\guild\guild_achievement" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_achievement\guildAchievementItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_achievement\guildAchievementLayer.lua" />
+                    </Filter>
+                    <Filter Name="guild_box" Directory=".\commonres\lua\scene\homeScene\guild\guild_box" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_box\guildBoxItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_box\guildBoxLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_box\guildBoxObtain.lua" />
+                    </Filter>
+                    <Filter Name="guild_building" Directory=".\commonres\lua\scene\homeScene\guild\guild_building" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_building\guildBuildingBoxItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_building\guildBuildingItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_building\guildBuildingLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_building\guildBuildingShow.lua" />
+                    </Filter>
+                    <Filter Name="guild_chamber" Directory=".\commonres\lua\scene\homeScene\guild\guild_chamber" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildAppointLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildApproveItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildApproveLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildChamberLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildChamberSet.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guilddisbandTip.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildExitTip.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildImpeachTip.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildInfoLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildLogLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildMemberItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildMemberLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildNoticeLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_chamber\guildRecruitLayer.lua" />
+                    </Filter>
+                    <Filter Name="guild_mercenary" Directory=".\commonres\lua\scene\homeScene\guild\guild_mercenary" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_mercenary\guildMercenaryItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_mercenary\guildMercenaryLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_mercenary\guildStationedItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_mercenary\guildStationedLayer.lua" />
+                    </Filter>
+                    <Filter Name="guild_nobility" Directory=".\commonres\lua\scene\homeScene\guild\guild_nobility" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_nobility\guildNobilityItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_nobility\guildNobilityLayer.lua" />
+                    </Filter>
+                    <Filter Name="guild_package" Directory=".\commonres\lua\scene\homeScene\guild\guild_package" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageApprove.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageGoods.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageLog.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageMainLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageMoney.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_package\guildPackageTip.lua" />
+                    </Filter>
+                    <Filter Name="guild_Troops" Directory=".\commonres\lua\scene\homeScene\guild\guild_Troops" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_Troops\guildTroopsInfo.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_Troops\guildTroopsLayer.lua" />
+                    </Filter>
+                    <Filter Name="guild_welfare" Directory=".\commonres\lua\scene\homeScene\guild\guild_welfare" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildHairWelfare.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildHairWelfareItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildMyWelfare.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildMyWelfareItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareDetails.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareDetailsItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareMainLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareRank.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\guild\guild_welfare\guildWelfareRankItem.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="help" Directory=".\commonres\lua\scene\homeScene\help" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\help\help.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\help\helpInfo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\help\helpItem.lua" />
+                </Filter>
+                <Filter Name="HemitIsland" Directory=".\commonres\lua\scene\homeScene\HemitIsland" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\HemitIsland\enemyInfo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\HemitIsland\IslandMainLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\HemitIsland\showTip.lua" />
+                </Filter>
+                <Filter Name="hero" Directory=".\commonres\lua\scene\homeScene\hero" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroAccessLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroAdvanceLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroAttLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroBottom.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroComLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroCommunication.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroCommunicationItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroDetailsLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroEquipLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroFeaturesInfo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroFeaturesItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroFeaturesLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroIntroduceLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroMainLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroStarFive.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroStarLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\heroUpgradeLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\jumpItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\treasureInfo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\treasureInfoItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\hero\treasureLayer.lua" />
+                </Filter>
+                <Filter Name="invade" Directory=".\commonres\lua\scene\homeScene\invade" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\invade\InvadeDialgo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\invade\InvadeLayer.lua" />
+                </Filter>
+                <Filter Name="kingRoad" Directory=".\commonres\lua\scene\homeScene\kingRoad" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadBtn.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadMainLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadRankItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadRankLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\kingRoad\kingRoadTaskItem.lua" />
+                </Filter>
+                <Filter Name="levelup" Directory=".\commonres\lua\scene\homeScene\levelup" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\levelup\LevelUpLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\levelup\LUOpenIcon.lua" />
+                </Filter>
+                <Filter Name="levy" Directory=".\commonres\lua\scene\homeScene\levy" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\levy\LeveyLayer.lua" />
+                </Filter>
+                <Filter Name="magicGuild" Directory=".\commonres\lua\scene\homeScene\magicGuild" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\magicGuild\MagicGuildLayer.lua" />
+                </Filter>
+                <Filter Name="mail" Directory=".\commonres\lua\scene\homeScene\mail" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mail.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailInfo.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailleftItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailSel.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mail\mailSelItem.lua" />
+                </Filter>
+                <Filter Name="mainCityScene" Directory=".\commonres\lua\scene\homeScene\mainCityScene" Toggle="false" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\MainCityManager.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\MapParallaxNode.lua" />
+                    <Filter Name="General" Directory=".\commonres\lua\scene\homeScene\mainCityScene\General" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\General\GeneralMapItem.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\General\GeneralMapLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\General\unGetGeneral.lua" />
+                    </Filter>
+                    <Filter Name="RoleInfoLayer" Directory=".\commonres\lua\scene\homeScene\mainCityScene\RoleInfoLayer" Toggle="true" >
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\RoleInfoLayer\ChangeHeadLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\RoleInfoLayer\changeNameLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\RoleInfoLayer\RoleInfoLayer.lua" />
+                        <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mainCityScene\RoleInfoLayer\SystemSetting.lua" />
+                    </Filter>
+                </Filter>
+                <Filter Name="mysteryStore" Directory=".\commonres\lua\scene\homeScene\mysteryStore" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\mysteryStore\MysteryStoreLayer.lua" />
+                </Filter>
+                <Filter Name="package" Directory=".\commonres\lua\scene\homeScene\package" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\package\PackageLayer.lua" />
+                </Filter>
+                <Filter Name="plot" Directory=".\commonres\lua\scene\homeScene\plot" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\plot\PlotLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\plot\PlotListItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\plot\PlotListLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\plot\PlotRewardListItem.lua" />
+                </Filter>
+                <Filter Name="rank" Directory=".\commonres\lua\scene\homeScene\rank" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\rank\rank.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\rank\rankItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\rank\rankLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\rank\rankleftItem.lua" />
+                </Filter>
+                <Filter Name="recoverroad" Directory=".\commonres\lua\scene\homeScene\recoverroad" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\recoverroad\milestoneItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\recoverroad\milestoneLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\recoverroad\recoverroadItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\recoverroad\recoverroadLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\recoverroad\recoverroadRule.lua" />
+                </Filter>
+                <Filter Name="science" Directory=".\commonres\lua\scene\homeScene\science" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\science\scienceItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\science\scienceLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\science\SciSoldierItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\science\SciSoldierLayer.lua" />
+                </Filter>
+                <Filter Name="shop" Directory=".\commonres\lua\scene\homeScene\shop" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shop.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopInfo1.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopInfo2.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopInfoItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\shop\shopleftItem.lua" />
+                </Filter>
+                <Filter Name="task" Directory=".\commonres\lua\scene\homeScene\task" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\task\taskItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\task\taskLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\task\taskRewardItem.lua" />
+                </Filter>
+                <Filter Name="trial" Directory=".\commonres\lua\scene\homeScene\trial" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\trial\trialEntranceItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\trial\trialEntranceLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\trial\trialMainLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\trial\trialReport.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\trial\trialReportItem.lua" />
+                </Filter>
+                <Filter Name="unionWar" Directory=".\commonres\lua\scene\homeScene\unionWar" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\unionWar\UWListItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\unionWar\UWListLayer.lua" />
+                </Filter>
+                <Filter Name="usercard" Directory=".\commonres\lua\scene\homeScene\usercard" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\usercard\usercardGetHero.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\usercard\usercardGetItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\usercard\usercardItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\usercard\usercardLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\usercard\usercardlook.lua" />
+                </Filter>
+                <Filter Name="vindicator" Directory=".\commonres\lua\scene\homeScene\vindicator" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\vindicator\vindicatorLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\vindicator\vindicatorReport.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\homeScene\vindicator\vindicatorReportItem.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="LoginScene" Directory=".\commonres\lua\scene\LoginScene" Toggle="true" >
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\EnterLogin.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\intileNameLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\loginDistrict.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\loginDistrictItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\LoginLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\LoginManager.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\LoginScene\registrationLayer.lua" />
+            </Filter>
+            <Filter Name="mapScene" Directory=".\commonres\lua\scene\mapScene" Toggle="true" >
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\CheckpointHeadItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\CheckpointItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\CheckpointLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\fanPaiItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\fanPaiLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\JesonGenerator.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MainLineCity.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MainLineLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MainLineUnlock.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MapManager.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLChooseRoad.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLChooseRoadItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLCityInfo.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLFallAndPlot.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLFightResult.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLFirstReward.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLForeignLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLLegion.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLLegionItem.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLRetreat.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLReward.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLsweep.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLTeam.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\mapScene\MLwar.lua" />
+            </Filter>
+            <Filter Name="unionScene" Directory=".\commonres\lua\scene\unionScene" Toggle="false" >
+                <LuaFile RelativePath=".\commonres\lua\scene\unionScene\UWMainLayer.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\unionScene\UWNoticName.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\unionScene\UWTryEnterCmd.lua" />
+                <Filter Name="cmd" Directory=".\commonres\lua\scene\unionScene\cmd" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWChuBingCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWDefendCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWDiaoBingCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWExitCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWFightDetailCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWInitCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWJiaoZhenCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWMyKillRankCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWNTFCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWRankCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWRewardCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWSelectCampCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWShouBingCmd.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\cmd\UWTeamInfoCmd.lua" />
+                </Filter>
+                <Filter Name="proxy" Directory=".\commonres\lua\scene\unionScene\proxy" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\proxy\UWInitProxy.lua" />
+                </Filter>
+                <Filter Name="view" Directory=".\commonres\lua\scene\unionScene\view" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWBtmLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWBtmView.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWCallDefend.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWCampLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWDiaoBinLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWDispatchLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWDot.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWFlagImg.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWFrameLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWJiaoZhenLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWMidView.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWRankLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWRankListItem.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWResultLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWRewardLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWSelectCampLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWSoider.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWSoiderLine.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWTeamInfoLayer.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\unionScene\view\UWTopView.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="warScene" Directory=".\commonres\lua\scene\warScene" Toggle="false" >
+                <LuaFile RelativePath=".\commonres\lua\scene\warScene\FightOP.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\warScene\FightResult.lua" />
+                <LuaFile RelativePath=".\commonres\lua\scene\warScene\sodierShow.lua" />
+                <Filter Name="sodier" Directory=".\commonres\lua\scene\warScene\sodier" Toggle="true" >
+                    <LuaFile RelativePath=".\commonres\lua\scene\warScene\sodier\Sodier.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\warScene\sodier\SodierCocos.lua" />
+                    <LuaFile RelativePath=".\commonres\lua\scene\warScene\sodier\SodierMatrix.lua" />
+                </Filter>
+            </Filter>
+        </Filter>
+    </Filter>
+</Project>
